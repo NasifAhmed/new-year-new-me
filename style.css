@@ -45,7 +45,8 @@ header {
   text-decoration: none;
 }
 
-.head-section button {
+
+.btn-primary {
   border-radius: 5px;
   background: #fff;
   border: none;
@@ -126,4 +127,34 @@ text-align: center;
 font-size: 25px;
 font-weight: 500;
 margin-bottom: 130px;
+}
+
+.call-section {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 130px;
+}
+
+.call-banner {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    background-image: url("assets/watch.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.call-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 59px 0px 0px 64px;
+}
+
+.call-content h3 {
+    max-width: 459px;
+    color: #FFF;
+font-size: 40px;
+font-weight: 700;
+margin-bottom: 24px;
 }
