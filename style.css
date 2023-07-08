@@ -55,3 +55,36 @@ header {
   font-size: 20px;
   font-weight: 600;
 }
+
+.failure {
+    padding: 131px 322px 130px 206px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.failure-list {
+    max-width: 416px;
+}
+
+.failure-list h2 {
+    color:#151414;
+font-size: 40px;
+font-weight: 700;
+margin-bottom: 24px;
+}
+.failure-list p {
+    color: #444343;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+margin-bottom: 16px;
+}
+
+.failure-list ul li {
+    color: #444343;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+list-style: none;
+}
