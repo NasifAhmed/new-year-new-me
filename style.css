@@ -101,6 +101,7 @@ list-style: none;
 .plans {
     text-align: center;
     display: block;
+    padding: 0px 230px 0px 230px;
 }
 
 .plans-title {
@@ -111,6 +112,7 @@ list-style: none;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    
 }
 
 .plans-content img {
@@ -137,6 +139,7 @@ margin-bottom: 130px;
     display: flex;
     justify-content: space-around;
     margin-bottom: 130px;
+    padding: 0px 230px 0px 230px; 
 }
 
 .call-banner {
