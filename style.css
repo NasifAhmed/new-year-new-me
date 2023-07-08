@@ -57,6 +57,10 @@ header {
   font-weight: 600;
 }
 
+.btn-primary:hover {
+    cursor: pointer;
+}
+
 .failure {
     padding: 131px 322px 130px 206px;
     display: flex;
@@ -221,4 +225,12 @@ font-weight: 600;
 height: 64px;
 padding-left: 0px;
 border: none;
+}
+
+.subscribe form input[type=button]:hover {
+    cursor: pointer;
+}
+
+.checkmark {
+    color: #16D887;
 }
