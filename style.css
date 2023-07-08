@@ -67,10 +67,14 @@ header {
     max-width: 416px;
 }
 
-.failure-list h2 {
+.main-title {
     color:#151414;
 font-size: 40px;
 font-weight: 700;
+}
+
+.failure-list h2 {
+
 margin-bottom: 24px;
 }
 .failure-list p {
@@ -87,4 +91,39 @@ font-size: 16px;
 font-weight: 400;
 line-height: 26px;
 list-style: none;
+}
+
+.plans {
+    text-align: center;
+    display: block;
+}
+
+.plans-title {
+    margin-bottom: 50px;
+}
+
+.plans-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.plans-content img {
+    margin-bottom: 24px;
+}
+
+.plans-content h3 {
+    color:#151414;
+text-align: center;
+font-size: 30px;
+font-weight: 700;
+margin-bottom: 16px;
+}
+
+.plans-content p {
+    color: #737272;
+text-align: center;
+font-size: 25px;
+font-weight: 500;
+margin-bottom: 130px;
 }
